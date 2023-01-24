@@ -1,0 +1,71 @@
+{
+    "list": [
+        {
+            "command": "sudo pacman -Ss",
+            "name": "Search Package",
+            "type": "COMMAND"
+        },
+        {
+            "command": "sudo pacman -S",
+            "name": "install package",
+            "type": "COMMAND"
+        },
+        {
+            "command": "sudo pacman -Sc",
+            "name": "Clear Package Cache",
+            "type": "COMMAND"
+        },
+        {
+            "command": "sudo pacman -Scc",
+            "name": "Clear All Stored and Cached Package Pacman",
+            "type": "COMMAND"
+        },
+        {
+            "command": "sudo pacman -U path_to_file.pkg.tar.xz",
+            "name": "Install tar.xy local and remote package",
+            "type": "COMMAND"
+        },
+        {
+            "command": "pacman -Si package",
+            "name": "Search Package with dependency",
+            "type": "COMMAND"
+        },
+        {
+            "command": "pacman -Qi package",
+            "name": "Show details about installed packages and dependencies",
+            "type": "COMMAND"
+        },
+        {
+            "command": "pacman -Q > complete_list.txt",
+            "name": "Export Intstalled package list",
+            "type": "COMMAND"
+        },
+        {
+            "command": "du -h \/var\/cache\/pacman\/pkg",
+            "name": "Total Space Used by Pacman",
+            "type": "COMMAND"
+        },
+        {
+            "command": "konsave -s <profile name>",
+            "name": "Konsave Save a Profile ",
+            "type": "COMMAND"
+        },
+        {
+            "command": "konsave -a <profile name>",
+            "name": "Konsave Apply a profile",
+            "type": "COMMAND"
+        },
+        {
+            "command": "konsave -e <profile name>",
+            "name": "Konsave Export a Profile As .Knsv",
+            "type": "COMMAND"
+        },
+        {
+            "command": "konsave -i <path to the file>",
+            "name": "Konsave Import and .Ksnv Profile",
+            "type": "COMMAND"
+        }
+    ],
+    "name": "Root",
+    "type": "FOLDER"
+}
