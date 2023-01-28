@@ -92,5 +92,3 @@ alias gull='git pull'
 alias gpush='git push'
 alias gal='git add .'
 
-## Add Environment variable like this
-#export PATH=$PATH:/home/zaphkiel/.local/bin/
