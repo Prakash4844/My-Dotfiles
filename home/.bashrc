@@ -85,10 +85,28 @@ alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 alias pacdiff=eos-pacdiff
 ################################################################################
 
+# My alias
+
 alias kurumi=sudo
 alias clr=clear
 alias gc='git clone'
 alias gull='git pull'
 alias gpush='git push'
 alias gal='git add .'
+alias gcm='git commit -m ""'
+alias grep='grep --color=auto'
+alias pacman='pacman --color=auto'
+alias tree='tree --dirsfirst -C'
+alias dmesg='dmesg --color=auto --reltime --human --nopager --decode'
+alias free='free -mht'
 
+
+##==============================================================================
+##	BETTER SUDO
+##==============================================================================
+
+alias sudo='\sudo '
+
+if [ "$PS1" ]; then
+	complete -cf sudo
+fi
