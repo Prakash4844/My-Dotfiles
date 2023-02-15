@@ -8,7 +8,7 @@
 [[ -f ~/.welcome_screen ]] && . ~/.welcome_screen
 
 _set_liveuser_PS1() {
-    PS1='[\u@\h \W]\$ '
+    PS1='\e[1;31m[\u@\e[0m\e[1;33m\h \W]\$ \e[0m '
     if [ "$(whoami)" = "liveuser" ] ; then
         local iso_version="$(grep ^VERSION= /usr/lib/endeavouros-release 2>/dev/null | cut -d '=' -f 2)"
         if [ -n "$iso_version" ] ; then
